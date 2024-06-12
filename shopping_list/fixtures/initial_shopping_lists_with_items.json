@@ -1,0 +1,57 @@
+[
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "0bce7882-1ed4-4618-9ae7-5fb9759179cd",
+    "fields": { "name": "Dairy" }
+  },
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "b8d2570a-27c7-4f44-9ab6-2d70cf346641",
+    "fields": { "name": "Meat" }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "176c8537-55c1-4d09-9fc6-b61630caac1e",
+    "fields": {
+      "name": "Chocolate Milk",
+      "purchased": false,
+      "shopping_list": "0bce7882-1ed4-4618-9ae7-5fb9759179cd"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "82e4ab9e-be35-42c9-a48f-312672870035",
+    "fields": {
+      "name": "Cheesedale",
+      "purchased": false,
+      "shopping_list": "0bce7882-1ed4-4618-9ae7-5fb9759179cd"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "86410a83-c598-4bde-b1a9-c8e37f7060f4",
+    "fields": {
+      "name": "Fried Chicken",
+      "purchased": false,
+      "shopping_list": "b8d2570a-27c7-4f44-9ab6-2d70cf346641"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "a376761e-5b76-45f6-a40d-1fb63bf929f1",
+    "fields": {
+      "name": "Butter",
+      "purchased": false,
+      "shopping_list": "0bce7882-1ed4-4618-9ae7-5fb9759179cd"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "c1c628b3-974f-4ca3-aff8-0fef6d44cb33",
+    "fields": {
+      "name": "Sirloin Steak",
+      "purchased": false,
+      "shopping_list": "b8d2570a-27c7-4f44-9ab6-2d70cf346641"
+    }
+  }
+]
